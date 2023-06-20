@@ -1,0 +1,42 @@
+.tableInfo{
+    margin: 1rem 4rem;
+    border: 1px solid black;
+}
+.tableInfo p{
+    width: 15%;
+    padding: .5rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+table{
+    margin: 1rem auto;
+}
+th{
+    background-color: skyblue;
+    color: white;
+    padding: .5rem 2rem;
+}
+table td button{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .5rem;
+}
+.addButton{
+    background-color: skyblue;
+    color: white;
+    padding: .5rem 3rem;
+    border: none;
+    outline: none;
+    margin: 1rem ;   
+}
+.age{
+    border: none;
+    outline: none;
+}
