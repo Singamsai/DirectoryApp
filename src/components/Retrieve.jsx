@@ -12,12 +12,13 @@ export default function Retrieve() {
     }
 
   return (
-      <div>
+      <div className='retrieve'>
+          <p>Retrieve Information</p><br/><br/><br/><br/>
           <input type='number' placeholder='Enter your Aadhar' value={search} onChange={(e) => setSearch(e.target.value)} />
-          <button onClick={handleData}>Search</button>
+          <button onClick={handleData} className='retreiveButton'>find</button><br/><br/><br/>
           {
               user ? (
-                  <div>
+                  <div className='data'>
                       {
                          Object.keys(user).map(key=>(
                              <li>{key} : {user[key]}</li>

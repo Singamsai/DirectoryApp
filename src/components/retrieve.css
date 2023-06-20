@@ -1,0 +1,32 @@
+.retrieve{
+    margin: 1rem 4rem;
+    border: 1px solid black;
+    padding: 2rem;
+}
+.retrieve p{
+    width: 15%;
+    margin:-2rem;
+    padding: .5rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.retrieve input{
+    font-size: 1.2rem;
+    padding: .2rem;
+}
+.retrieve li{
+    list-style: none;
+}
+.data{
+    width: 400px;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+}
+.retreiveButton{
+    background-color: skyblue;
+    color: white;
+    padding: .5rem 1rem ;
+    border: none;
+    outline: none;
+    margin: 1rem ;
+}
